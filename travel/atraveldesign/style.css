@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.icons i{
+    padding-left: 5px;
+}
+.nav-bg{
+    background-image: url(./images/headersec-bg.jpg);
+    padding: 20px;
+}
+.logo{
+    object-fit: cover;
+    width: 70%;
+}
+.nav-link:hover{
+    border-bottom: 1px solid blue;
+    transition: 0.5s;
+}
+.head-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/dubai.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height: 50vh;
+    padding: 15%;
+    /* background-position-x:center; */
+    background-position-y:30% ;
+}
+.head-img h4{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.head-img h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.head-img span{
+    border: 3px solid white;
+    width: 10%;
+    border-radius:5px ;
+}
+.index:link{
+    border-bottom: 1px solid blue !important;
+}
+.trukey .card:hover{
+    box-shadow: 1px 2px 1px 2px black;
+    transition: 0.5s;
+}
+/* header */
+
+/* sec-1 */
+.head-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-transform: uppercase;
+}
+.head-1 span{
+    border: 3px solid blue;
+    width: 10%;
+    border-radius:5px ;
+}
+.det{
+    background: linear-gradient(rgba(255, 0, 0, 0.6),rgba(255, 0, 0, 0.6));
+    color: white;
+    font-weight: bold;
+}
+/* sec-1 */
+
+/* sec-3 */
+.sec-3{
+   background-image: url(./images/h-4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 15%;
+   display: flex;
+    flex-direction: column;
+}
+.sec-3 h1{
+    color: white;
+    
+}
+.sec-3 span{
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 15%;
+    display: flex;
+}
+.sec-3 .para{
+    color: white;
+}
+.content{
+    color: white;
+    background: linear-gradient(rgba(255, 0, 0, 0.6),rgba(255, 0, 0, 0.6));
+}
+/* sec-3 */
+
+/* footer */
+
+.generl ul a{
+    margin: 3px;
+}
+.social i{
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+}
+.generl ul a:hover{
+    color: white !important;
+    transition: 0.5s;
+}
+.contact a:hover{
+    color: white !important;
+    transition: 0.5s;
+}
+.social i:hover{
+    background-color: rgb(255, 25, 140);
+    color: white;
+    
+}
+/* footer */
+
+/* media query */
+
+@media screen and (max-width: 576px) {
+    .head-img h4{
+        font-size: 20px;
+    }
+    .head-img h2{
+        font-size: 20px;
+    }
+    .sec-3 h1,span,p{
+        color: black ;
+    }
+    .content p{
+        color: white;
+    }
+    .trukey span{
+        color: white;
+    }
+    .tnav span{
+        color: white;
+        font-size: 5px;
+    }
+    .tnav .icons{
+        font-size: 5px;
+    }
+}
+
+/* media query */
+
+/* about */
+.about:link{
+    border-bottom: 1px solid blue !important;
+}
+
+.about-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-1 h2{
+    font-size: 40px;
+    color: rgba(25, 205, 236, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about-1 span{
+    border: 3px solid  rgba(25, 205, 236, 0.8);
+    width: 10%;
+}
+.con-1{
+    display: flex;
+    justify-content: center;
+}
+.about-2 h1{
+    font-size: 50px;
+
+}
+/* our facilities */
+.our{
+    background-color: rgb(247, 246, 246);
+}
+.faci{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faci h2{
+    font-size: 40px;
+    color: rgba(0, 156, 247, 0.863);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.faci span{
+    border: 3px solid  rgba(0, 156, 247, 0.863);
+    width: 10%;
+}
+.our i{
+    font-size: 50px;
+}
+.our h3{
+    font-size:15px;
+}
+/* our facilities */
+/* what we do */
+.what{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.what h2{
+    font-size: 40px;
+    color: rgba(25, 116, 236, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.what span{
+    border: 3px solid  rgba(25, 99, 236, 0.8);
+    width: 10%;
+}
+.cc ul li{
+   padding: 10px;
+}
+/* what we do */
+/* abbout */
+
+/* service */
+.service:link{
+    border-bottom: 1px solid blue;
+}
+.deta{
+    background-color: rgba(148, 225, 255, 0.925);
+}
+.deta h4{
+    color: blue;
+}
+/* service */
+
+/* package */
+.package:link{
+    border-bottom: 1px solid blue;
+
+}
+/* package */
+
+/* contact */
+.contact:link{
+  border-bottom: 1px solid blue;
+}
+.loc{
+    background-color: rgba(61, 61, 248, 0.87);
+    color: white;
+    padding: 15px;
+}
+.form{
+    background-color: rgb(201, 194, 194);
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+}
+/* contact */
