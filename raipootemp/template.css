@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-navigation{
+  margin-top: -20px;
+}
+.ser-con{
+  padding-top: 60px;
+  padding-left: 15px;
+}
+.card{
+  border: 1px solid black;
+  align-items: center;
+  max-width: 30.33%;
+  margin: 10px;
+}
+.card:hover{
+  background-color: black;
+  color: white;
+
+}
+.card .head-1{
+  padding: 5px;
+}
+.card .head-2{
+  padding: 5px;
+}
+.card .head-2 h2{
+  font-size: 50px;
+  position: relative;
+  margin-left: 5px;
+}
+.card h2 small{
+  position: absolute;
+  top: -10px;
+  left: -12px;
+}
+.list{
+  padding: 3px;
+  margin-right: 5px;
+}
+.list ul{
+  list-style-type: none;
+}
+.list ul li{
+  margin-top: 3px;
+}
+.btn{
+  align-items: center;
+}
+.banner{
+  position: relative;
+  background-image: url('./images/bg/banner_bg.jpg');
+  background-size: cover;
+  padding: 7.5rem 0;
+  height: 80vh;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+.p{
+  border-radius: 10px;
+}
+
+.imgtop{
+  position: relative;
+  margin-top: -40px;
+  box-sizing: border-box;
+}
+
+.c-1 img{
+  border-radius: 5px;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.08);
+}
+.c-2{
+  margin-top:10px;
+}
+.c-3{
+  margin-top: 15px;
+}
+.c-3 h3:hover{
+    color: green;
+}
+.c-5 span{
+  cursor: pointer;
+}
+.bd{
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+.ca-1{
+  border-top-right-radius: 35px;
+}
+
+
+@media screen and (max-width:320px) {
+  
+  .head-1 h2{
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .head-2 .h2,small,span{
+      font-size: 15px;
+  }
+  .list ul li{
+    font-size: 10px;
+  }
+  .btn{
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
