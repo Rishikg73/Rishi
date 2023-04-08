@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.card{
+    width: 250px;
+    height: 340px;
+    position: relative;
+    transition:all 1s linear;
+    transform-style: preserve-3d;
+}
+.front,
+.back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+}
+.front{
+    background: linear-gradient(#08aeea, #2af598);
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.back{
+    background: linear-gradient(#08ea93, #f52ada);
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+.container:hover .card{
+    transform: rotateY(180deg);
+}
