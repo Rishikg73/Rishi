@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.sec1{
+    background-image: url(Taj_Mahal\,_Agra\,_India_edit3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec2{
+    background-image: url(Kheops-Pyramid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec3{
+    background-image: url(The_Great_Wall_of_China_at_Jinshanling-edit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 5rem;
+    color: white;
+    align-self: flex-end;
+}
+
+@media screen and (max-width:768px) {
+    .sec1,.sec2,.sec3{
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .content{
+        align-self: flex-start;
+    }
+}
